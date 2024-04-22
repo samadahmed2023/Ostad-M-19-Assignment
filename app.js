@@ -23,8 +23,9 @@ app.use(limiter)
 app.use(cookieParser())
 
 
-//mongoose Database connection 
-let URI = "mongodb+srv://samad:<password>@cluster0.pq7y8jt.mongodb.net/CRUD6";
+//mongoose Database connection
+
+let URI = "mongodb+srv://samad:<password>@cluster0.pq7y8jt.mongodb.net/CRUD5";
 let OPTION = {user:"samad",pass:"samad1234",autoIndex:true}
 
 
